@@ -8,4 +8,5 @@ sudo yum install git -y
 # install docker
 sudo yum install docker
 
+https://www.cyberciti.biz/faq/how-to-install-docker-on-amazon-linux-2/
 
