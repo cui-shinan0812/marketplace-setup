@@ -10,3 +10,7 @@ sudo yum install docker
 
 https://www.cyberciti.biz/faq/how-to-install-docker-on-amazon-linux-2/
 
+# install development tools
+
+sudo yum groupinstall -y "Development Tools"
+
