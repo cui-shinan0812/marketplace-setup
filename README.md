@@ -8,9 +8,12 @@ sudo yum install git -y
 # install docker
 sudo yum install docker
 
-https://www.cyberciti.biz/faq/how-to-install-docker-on-amazon-linux-2/
 
-# install development tools
 
-sudo yum groupinstall -y "Development Tools"
+# install docker-compose
+sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose version
 
