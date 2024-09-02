@@ -22,6 +22,12 @@ docker-compose version
 # install npm
 sudo yum install npm
 
+# redis docker
+
+docker run -d -p 6379:6379 redis-stack redis-server --requirepass mypassword
+
+# mysql docker
+
 
 # Download the RPM file
 sudo wget https://dev.mysql.com/get/mysql80-community-release-el9-1.noarch.rpm 
