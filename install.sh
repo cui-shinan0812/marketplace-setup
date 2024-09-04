@@ -7,7 +7,7 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 sudo docker-compose version
 
-sudo docker run -d -p 6379:6379 redis-stack redis-server --requirepass mypassword
+sudo docker run -d -p 6379:6379 redis/redis-stack redis-server --requirepass mypassword
 git clone https://github.com/cui-shinan0812/marketplace-setup.git
 cd marketplace-setup
 sudo docker-compose up db -d
